@@ -1,0 +1,12 @@
+@keyframes fade {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: .6;
+    }
+}
+
+.fade-links:hover {
+    animation: fade .5s ease-in-out forwards;
+}
